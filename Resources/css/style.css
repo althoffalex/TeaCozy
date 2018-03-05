@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  }
+nav {
+  align-text: right;
+}
+a{
+  color: seashell;
+}
+.main-content{
+  display: flex;
+  padding-top: 70px;
+      opacity: 0.9;
+    flex-wrap: wrap;
+      margin: auto;
+      justify-content: center;
+}
+.mission{
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.mission-text{
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+}
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+}
+.store{
+
+
+ width: 1000px;
+  padding-top: 50px;
+  height: 700px;
+}
+.tea{
+
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 60px;
+  align-items: center;
+  margin: 0 auto;
+
+}
+.Loccontent{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  position: relative;
+  bottom: 50px;
+
+}
+.Loctext{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+ .copyright h5{
+  text-align: left;
+  margin-left: 15px;
+}
